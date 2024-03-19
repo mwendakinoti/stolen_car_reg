@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Spectral', cursive;
+  min-height: 100vh;
+  background-color: #111;
+}
+
+nav {
+  background-color: rgba(17, 17, 17, 0.438);
+}
+
+.logo {
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+}
+
+.orange {
+  color: #C65102 !important;
+}
+
+.flx {
+  display: flex;
+}
+
+#stolentext .col-md-8 h3 {
+  font-family: 'Spectral', cursive;
+  color: #C65102;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+#searchbox {
+  background-color: #c4c4c4;
+  color: #000;
+  border-radius: 20px;
+}
+
+#search {
+  background-color: #c4c4c4;
+  color: #000;
+  border-radius: 15px;
+  margin: 0 5px;
+}
+
+#titletext {
+  padding-top: 2%;
+}
+
+#titlestext .col-md-9 p {
+  font-family: 'Spectral', cursive;
+  color: #fff;
+  margin-top: 5%;
+  display: inline;
+  padding-left: 20%;
+  padding-top: 20%;
+  font-size: 22px;
+}
+
+.viewbox {
+  margin: 10px 0;
+  min-height: 100px;
+  box-shadow: 1px 0px 10px 5px #c65102;
+}
+
+.ston {
+  height: 100vh;
+}
+
+.stolen {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+
+.view {
+  background-color: #C4C4C4 !important;
+  color: #000 !important;
+}
+
+.mk {
+  background-color: #AAA6A6;
+}
+
+.pop {
+  display: none;
+  background-color: rgba(17, 17, 17, 0.472);
+}
+
+.pop-up {
+  position: relative;
+  background-color: #c4c4c4;
+  width: 700px;
+  min-width: 375px;
+  min-height: 50vh;
+  border-radius: 20px;
+}
+
+.pop-up img {
+  width: 300px;
+  min-width: 200px;
+}
+
+.pop-up button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: black;
+}
+
+.pop-up h4 {
+  background-color: #c65102;
+  width: 80%;
+}
+
+.list li {
+  padding: 0 5px;
+}
+
+.list li a {
+  font-size: 25px;
+  color: #fff !important;
+}
+
+.reportTop {
+  height: 100vh;
+  background-color: rgba(17, 17, 17, 0.74);
+  display: none;
+}
+
+.report {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  min-width: 25%;
+  height: 50vh;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.596);
+  box-shadow: 1px 0px 10px 5px #c65102;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form .form-control {
+  margin: 10px;
+}
+
+.rapo {
+  top: 10px;
+  right: 10px;
+}
+
+footer ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.flx {
+  display: flex;
+}
